@@ -9,7 +9,8 @@ should take care of applying it to both elements.
 body {
     margin: 20px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Garamond, serif;
+    font-size: 1.2rem;
 }
 
 .avatar {
@@ -22,12 +23,29 @@ body {
     padding: 20px;
     display: flex;
     justify-content: space-around;
-    background-color: #bb5d4c;
-    border-bottom: 8px solid #d1c4e9;
-    color: #ddebf8;
+    background-color: #fcba04;
+    border-bottom: 8px solid #590004;
+    color: #a50104;
+    /* text-shadow: 2px 2px 4px #250001; */
 }
 
 .border-blue {
     border: 1px dotted blue;
 }
 
+.card-text{
+    animation: pulseText 1.5s infinite alternate;
+}
+
+@keyframes pulseText {
+    from {
+        transform: scale(1);
+        text-shadow: none;
+        opacity: 0.8;
+    }
+    to {
+        transform: scale(1.05);
+        text-shadow: 2px 2px 4px #250001;
+        opacity: 1;
+    }
+}
