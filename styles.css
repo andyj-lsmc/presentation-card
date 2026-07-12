@@ -9,6 +9,7 @@ should take care of applying it to both elements.
 body {
     margin: 20px;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .avatar {
@@ -25,7 +26,6 @@ body {
     background-color: #bb5d4c;
     border-bottom: 8px solid #d1c4e9;
     color: #ddebf8;
-    
 }
 
 .border-blue {
