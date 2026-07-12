@@ -8,6 +8,7 @@ should take care of applying it to both elements.
 
 body {
     margin: 20px;
+    text-align: center;
 }
 
 .avatar {
