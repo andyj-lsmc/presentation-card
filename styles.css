@@ -22,6 +22,10 @@ body {
     padding: 20px;
     display: flex;
     justify-content: space-around;
+    background-color: #bb5d4c;
+    border-bottom: 8px solid #d1c4e9;
+    color: #ddebf8;
+    
 }
 
 .border-blue {
